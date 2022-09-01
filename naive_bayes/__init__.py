@@ -2,7 +2,7 @@ import numpy as np
 from utils import probability
 
 
-class GaussianNaiveBayesClassifier:
+class GaussianNBClassifier:
     def __init__(
         self, features: np.ndarray, classes: np.ndarray, eps: float = 1e-4
     ) -> None:
